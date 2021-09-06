@@ -1,0 +1,15 @@
+{% if site.data.social-media %}
+<section>
+    <ul class="menu-social">
+        {% assign sm = site.data.social-media %}
+        {% for entry in sm %}
+            {% assign key = entry | first %}
+            {% if sm[key].id %}
+                <li class="menu-item">
+                    <a href="{{ sm[key].href | relative_url }}" class="{{ sm[key].fa-icon }}"></a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}

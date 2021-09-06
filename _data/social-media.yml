@@ -1,0 +1,17 @@
+linkedin:
+  id: 'danriduk'
+  href: 'https://www.linkedin.com/in/danriduk'
+  title: 'linkedin'
+  fa-icon: 'fa fa-linkedin'
+
+github:
+  id: 'danriduk'
+  href: 'https://github.com/danriduk'
+  title: 'github'
+  fa-icon: 'fa fa-github'
+
+vimeo:
+  id: 'danriduk'
+  href: 'https://vimeo.com/danriduk'
+  title: 'vimeo'
+  fa-icon: 'fa fa-vimeo'
