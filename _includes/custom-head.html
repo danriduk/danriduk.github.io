@@ -1,7 +1,3 @@
-{% if site.tags != "" %}
-  {% include collect-tags.html %}
-{% endif %}
-
 {% for dependency in page.dependencies %}
   {% include dependency.html name=dependency %}
 {% endfor %}

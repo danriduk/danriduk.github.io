@@ -30,6 +30,7 @@ github_username:  danriduk
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -56,3 +57,14 @@ plugins:
 header_pages:
   - sketches.md
   - blog.md
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'

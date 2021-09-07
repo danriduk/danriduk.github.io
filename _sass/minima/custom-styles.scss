@@ -15,37 +15,23 @@
     padding-right: 50px;
 }
 
-
-.timeline-media {
+// BLOG CSS
+.blog-container {
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
-.timeline-media iframe {
-  position: relative;
-  height: auto;
-  width: auto;
+.blog {
+  display: flex;
+  justify-content: space-between;
 }
 
-.left div h2 {
-  text-align: right;
-  color: #2DA1E7;
+.blog-posts {
+  display: flex;
+  flex-direction: column;
 }
 
-.right div h2 {
-  text-align: left;
-  color: #2DA1E7;
-}
-
-.left div h3 {
-  text-align: right;
-}
-
-.left div p {
-  text-align: right;
-}
-
+// p5 SKETCHES CSS
 .sketches-container {
   display: flex;
   flex-wrap: wrap;
@@ -66,6 +52,36 @@
 // TIMELINE CSS
 * {
     box-sizing: border-box;
+  }
+
+  .timeline-media {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .timeline-media iframe {
+    position: relative;
+    height: auto;
+    width: auto;
+  }
+  
+  .left div h2 {
+    text-align: right;
+    color: #2DA1E7;
+  }
+  
+  .right div h2 {
+    text-align: left;
+    color: #2DA1E7;
+  }
+  
+  .left div h3 {
+    text-align: right;
+  }
+  
+  .left div p {
+    text-align: right;
   }
   
   /* Set a background color */
