@@ -1,6 +1,7 @@
 ---
 layout: p5post
-title: sketches
+title: p5js-sketches
+permalink: /sketches/
 ---
 
 # Sketches
