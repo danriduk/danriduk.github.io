@@ -1,0 +1,14 @@
+{% if site.data.p5-sketches %}
+<div class="sketches-container">
+    {% assign sk = site.data.p5-sketches %}
+    {% for entry in sk %}
+        {% assign key = entry | first %}
+        {% if sk[key].id %}
+            <div class="sketch-container">
+                <a href="{{ sk[key].full }}">{{ sk[key].id }}</a>
+                <iframe class="sketch" src="{{ sk[key].src }}" frameborder="0"></iframe>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

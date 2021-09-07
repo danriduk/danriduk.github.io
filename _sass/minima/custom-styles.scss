@@ -46,6 +46,22 @@
   text-align: right;
 }
 
+.sketches-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sketch-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sketch {
+  width: 300px;
+  height: 300px;
+}
 
 // TIMELINE CSS
 * {
@@ -186,5 +202,18 @@
 
     .left {
       left: 0%;
+    }
+
+    .left div h2 {
+      text-align: left;
+      color: #2DA1E7;
+    }
+    
+    .left div h3 {
+      text-align: left;
+    }
+    
+    .left div p {
+      text-align: left;
     }
   }

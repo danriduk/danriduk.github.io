@@ -4,3 +4,11 @@
 
 layout: home
 ---
+
+# About
+
+I am a Creature TD with over 5 years experience in 3d software such as Maya building character, creature and prop rigs and building tools written in python for use in a production environment. I am currently working and Industrial Light and Magic London working on an awesome variety of shows to bring to the big screen.
+
+This site is to be used as a personal archive of sorts to share random things i am learning and projects i am currently working on.
+
+<hr>

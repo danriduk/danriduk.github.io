@@ -55,13 +55,12 @@ Milk:
 graduateShowreel:
   year: 'May 2016'
   title: 'Graduate Showreel'
-  desc: 'VFX and 3D Animation 1st Class Honors'
   media: 'https://player.vimeo.com/video/166225194'
   side: 'container right'
 
 graduateFilms:
   year: 'May 2016'
-  title: 'Graduated University'
+  title: 'Graduated University of Hertfordshire'
   media: 'https://player.vimeo.com/video/168176040'
   media2: 'https://player.vimeo.com/video/168253503'
   side: 'container left'
