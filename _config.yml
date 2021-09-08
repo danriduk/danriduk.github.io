@@ -58,6 +58,7 @@ header_pages:
   - sketches.md
   - blog.md
 
+# jekyll blog tagging archive
 jekyll-archives:
   enabled:
     - tags
@@ -68,3 +69,9 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: danrigs
