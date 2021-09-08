@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 tags: webdev jekyll
 ---
