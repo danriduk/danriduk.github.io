@@ -3,8 +3,6 @@ layout: post
 tags: webdev jekyll
 ---
 
-# Website is live !
-
 Built using github pages and jekyll using minima dark theme
 
 This will be mainly used as a blog site to throw anything on that i feel like it worth it.
