@@ -27,6 +27,7 @@ twitter_username:
 github_username:  danriduk
 
 # Build settings
+environment: development
 theme: minima
 plugins:
   - jekyll-feed
@@ -62,7 +63,7 @@ header_pages:
 jekyll-archives:
   enabled:
     - tags
-  layout: 'archive'
+  layout: 'tagpage'
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
