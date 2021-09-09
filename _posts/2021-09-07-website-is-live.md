@@ -10,5 +10,5 @@ This will be mainly used as a blog site to throw anything on that i feel like it
 
 still under construction so alot may change and/or break randomly, as i am still very much in the early stages of learning all this webdev stuffs.
 
-<p>https:/{{ page.url | absolute_url }}</p>
+<p>https://{{ site.disqus.shortname }}{{ page.url | absolute_url }}</p>
 https://{{ site.disqus.shortname }}.disqus.com/embed.js
