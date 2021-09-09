@@ -27,7 +27,6 @@ twitter_username:
 github_username:  danriduk
 
 # Build settings
-environment: development
 theme: minima
 plugins:
   - jekyll-feed
@@ -75,5 +74,4 @@ jekyll-archives:
 disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  shortname: danrigs
-  url: https://danrigs.com/
+  shortname: danrigs.com
