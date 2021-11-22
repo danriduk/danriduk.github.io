@@ -2,14 +2,14 @@
   year: 'May 2019'
   title: 'Aladdin'
   media: 'https://www.youtube.com/embed/foyufD52aog'
-  side: 'container right'
+  side: 'container left'
 
 
 5:
   year: 'April 2019'
   title: 'Avengers: Endgame'
   media: 'https://www.youtube.com/embed/TcMBFSGVi1c'
-  side: 'container left'
+  side: 'container right'
 
 showreel:
   year: 'Dec 2018'
