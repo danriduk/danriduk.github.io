@@ -1,11 +1,11 @@
 {% if site.data.timeline-entries %}
 <div class="timeline">
     {% assign te = site.data.timeline-entries %}
-    {% assign postSide = container left %}
+    {% assign postSide = "container left" %}
     {% for entry in te %}
         {% assign key = entry | first %}
         {% if te[key].year %}
-            <div class={{ postSide }}>
+            <div class="{{ postSide }}"">
                 <div class="timeline-content">
                     <h2>{{ te[key].year }}</h2>
                     <h3>{{ te[key].title }}</h3>
@@ -22,10 +22,10 @@
                     </div>
                 </div>
             </div>
-            {% if postSide == container left %}
-                {% assign postSide = container right %}
+            {% if postSide == "container left" %}
+                {% assign postSide = "container right" %}
             {% else %}
-                {% assign postSide = container left %}
+                {% assign postSide = "container left" %}
             {% endif %}
         {% endif %}
     {% endfor %}
