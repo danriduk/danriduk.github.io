@@ -5,7 +5,7 @@
     {% for entry in te %}
         {% assign key = entry | first %}
         {% if te[key].year %}
-            <div class="{{ postSide }}">
+            <div class={{ postSide }}>
                 <div class="timeline-content">
                     <h2>{{ te[key].year }}</h2>
                     <h3>{{ te[key].title }}</h3>
