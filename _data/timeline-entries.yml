@@ -2,89 +2,74 @@ AbbaVoyage:
   year: 'May 2022'
   title: 'Abba Voyage'
   media: 'https://www.youtube.com/embed/nlGC_1k1Bgs'
-  side: 'container left'
 
 ILM_syd:
   year: 'Jan 2022'
   title: 'ILM'
   desc: 'Transfered to the ILM Sydney studio'
-  side: 'container right'
 
 Eternals:
   year: 'Nov 2021'
   title: 'Eternals'
   media: 'https://www.youtube.com/embed/x_me3xsvDgk'
-  side: 'container left'
 
 Aladdin:
   year: 'May 2019'
   title: 'Aladdin'
   media: 'https://www.youtube.com/embed/foyufD52aog'
-  side: 'container right'
 
 Avengers_endgame:
   year: 'April 2019'
   title: 'Avengers: Endgame'
   media: 'https://www.youtube.com/embed/TcMBFSGVi1c'
-  side: 'container left'
 
 showreel_2018:
   year: 'Dec 2018'
   title: 'New Showreel'
   media: 'https://player.vimeo.com/video/295463244'
-  side: 'container right'
 
 Solo:
   year: 'May 2018'
   title: 'Solo: A Star Wars Story'
   media: 'https://www.youtube.com/embed/jPEYpryMp2s'
-  side: 'container left'
 
 ReadyPlayerOne:
   year: 'March 2018'
   title: 'Ready Player One'
   media: 'https://www.youtube.com/embed/cSp1dM2Vj48'
-  side: 'container right'
 
 StarWars_theLastJedi:
   year: 'Dec 2017'
   title: 'Star Wars: The Last Jedi'
   media: 'https://www.youtube.com/embed/Q0CbN8sfihY'
-  side: 'container left'
 
 Life:
   year: 'March 2017'
   title: 'Life'
   media: 'https://www.youtube.com/embed/LeLsJfGmY_Y'
-  side: 'container right'
 
 DoctorStrange:
   year: 'Oct 2016'
   title: 'Doctor Strange'
   media: 'https://www.youtube.com/embed/HSzx-zryEgM'
-  side: 'container left'
 
 ILM_lon:
   year: 'Aug 2016'
   title: 'ILM'
   desc: 'Joined ILM London as a Creature TD'
-  side: 'container right'
 
 Milk:
   year: 'June 2016'
   title: 'Milk VFX'
   desc: 'First Job as a Rigging TD'
-  side: 'container left'
 
 graduateShowreel:
   year: 'May 2016'
   title: 'Graduate Showreel'
   media: 'https://player.vimeo.com/video/166225194'
-  side: 'container right'
 
 graduateFilms:
   year: 'May 2016'
-  title: 'Graduated University of Hertfordshire'
+  title: 'Graduated from University of Hertfordshire'
   media: 'https://player.vimeo.com/video/168176040'
   media2: 'https://player.vimeo.com/video/168253503'
-  side: 'container left'
