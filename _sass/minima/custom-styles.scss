@@ -190,6 +190,10 @@
     position: relative;
     border-radius: 6px;
   }
+  .timeline-content hr {
+    border: 0;
+
+  }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
@@ -240,3 +244,4 @@
       text-align: left;
     }
   }
+  
