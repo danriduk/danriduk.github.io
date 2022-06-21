@@ -7,8 +7,8 @@ layout: home
 
 # About
 
-I am a Creature TD with over 5 years experience in the industry, building creature and prop rigs and building tools written in python for use in a production environment. I am currently working and Industrial Light and Magic Sydney working on an awesome variety of shows to bring to the big screen.
+I am a Creature TD working in the film industry since June 2016 after graduating from the University of Hertfordshire.
 
-This site is to be used as a personal archive of sorts to share random things i am learning and projects i am currently working on.
+This site is to be used as a personal archive of projects i have worked on in the film industry, as well as a blog for personal projects and anything i find interesting along the way worth sharing and storing.
 
 <hr>
