@@ -4,8 +4,6 @@ layout: post
 tags: maya python rigging
 ---
 
-## Scripting a joint orient tool in maya using python
-
 Mayas joint orient tool leaves alot to be desired.
 Without alot of fiddling with the settings and manual shifting of the joints rotation its extremely annoying and time consuming to get a good base oriention of your joint chain, which will cause alot of problems down the line when building your rig.
 

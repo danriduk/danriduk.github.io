@@ -4,8 +4,6 @@ layout: post
 tags: maya python
 ---
 
-## Reloading all imported modules
-
 As part of the on-going project to build a library of rigging tools i wanted a better way to reload all imported custom modules
 
 
