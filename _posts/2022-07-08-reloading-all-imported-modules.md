@@ -20,19 +20,20 @@ using sys.modules we can get a dictionary of all current imported modules with t
 # {..., 'DRTools.utils.attrUtils' from 'C:\\Users/danri/Documents/maya/2023/scripts\\DRTools\\utils\\attrUtils.py'>, ...}
 ```
 Utilizing this we can only reload modules in a specific directory where our custom tools are located and reuse the function throughout our codebase.
+A neat trick to reload everything is to simply delete the key from the sys.modules dictionary, that way we we will be re-importing all the modules in our codebase at once.
+Avoiding a bunch of importlib.reload(MODULE)'s and chaining them together in our codebase.
 
 ```python
-def reload():
-    from sys import modules
-    import importlib
+def reload_DRig():
+    modules_to_del = []
+    for module in sys.modules.copy():
+        # print(module)
+        top_module = module.split('.')[0]
+        if top_module == 'DRig':
+            modules_to_del.append(module)
 
-    my_modules = {}
-    for key in modules.keys():
-        if 'DRTools' in key:
-            my_modules[key] = modules[key]
-
-    for val in my_modules.values():
-        importlib.reload(val)
+    for module in modules_to_del:
+        del(sys.modules[module])
 ```
 
 <hr>
@@ -40,15 +41,9 @@ def reload():
 Example use case from the joint orient tool
 
 ```python
-# MAYA MODULES
-import maya.cmds as mc
-
-# CUSTOM MODULES
-from DRTools.utils import attrUtils
-
 # RELOAD
-from DRTools import reloadModules
-reloadModules.reload()
+from DRig.utils import pyUtils
+pyUtils.reload_DRig()
 ```
 
 This is now alot cleaner and easier to use rather then repetitive lines of importlib.reload()
