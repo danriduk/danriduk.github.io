@@ -46,8 +46,8 @@ arm.fullname # 'c_arm'
 
 arm.side = 'l'
 arm.name = 'armA'
-arm.side # 'l'
-arm.name # 'armA'
+arm.side # 'c'
+arm.name # 'arm'
 arm.fullname # 'c_arm'
 ```
 
